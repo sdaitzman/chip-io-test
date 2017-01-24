@@ -9,6 +9,5 @@ board.on('ready', function() {
   // Create an LED on the PWM0 pin
   var led = new five.Led('PWM0')
 
-  // Make it pulse with a 1 second interval
   led.pulse(1)
 })
